@@ -7,13 +7,13 @@ void main (){
     }
   }
 
-print("\n");
+print("");
 
   for (var i = 1; i <= 5; i++) {            //Soal2 Cetak Karakter
     stdout.write("* ");
   }
 
-  print("\n");
+print("");
 
   int u = 1;                                //Soal3 Looping nama
   while (u <= 5){
@@ -23,13 +23,15 @@ print("\n");
 
 List<String> Buah = ["Apel","Jeruk","Mangga","Anggur"];  //Soal4 Looping List
 for (var n in Buah){
-  print("Saya suka $n \n");
+  print("Saya suka $n");
 }
+
+print("");
 
 List<String> Belanja = ["Beras","Minyak","Kangkung","Ayam"];   //Soal5 Simulasi Looping
 int a = 1;
 for (var b in Belanja){
-  print("item ke-$a : $b \n");
+  print("item ke-$a : $b");
   a++;
 }
 }
